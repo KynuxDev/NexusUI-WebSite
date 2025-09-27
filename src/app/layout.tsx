@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://powerbot.com"),
   title: {
-    default: "PowerBot - En Güçlü Discord Botu | Müzik, Moderasyon, Eğlence",
-    template: "%s | PowerBot - Discord Bot"
+    default: "KynuxDev - En Güçlü Discord Botu | Müzik, Moderasyon, Eğlence",
+    template: "%s | KynuxDev - Discord Bot"
   },
-  description: "PowerBot ile Discord sunucunuzu profesyonel seviyeye taşıyın. 24/7 müzik çalma, gelişmiş moderasyon araçları, eğlence komutları ve 150+ faydalı özellik. 15,000+ sunucuda güvenilir.",
+  description: "KynuxDev ile Discord sunucunuzu profesyonel seviyeye taşıyın. 24/7 müzik çalma, gelişmiş moderasyon araçları, eğlence komutları ve 150+ faydalı özellik. 15,000+ sunucuda güvenilir.",
   keywords: [
     "discord bot",
     "discord müzik botu",
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
     "discord utility bot"
   ],
   authors: [
-    { name: "PowerBot Team", url: "https://powerbot.com" },
-    { name: "PowerBot Developers" }
+    { name: "KynuxDev Team", url: "https://powerbot.com" },
+    { name: "KynuxDev Developers" }
   ],
-  creator: "PowerBot Team",
-  publisher: "PowerBot",
+  creator: "KynuxDev Team",
+  publisher: "KynuxDev",
   category: "Technology",
   classification: "Discord Bot Service",
   robots: {
@@ -70,22 +70,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
     url: "https://powerbot.com",
-    siteName: "PowerBot - Discord Bot",
-    title: "PowerBot - En Güçlü Discord Botu | 15,000+ Sunucuda Güvenilir",
-    description: "Türkiye'nin en popüler Discord botu PowerBot ile sunucunuzu geliştirin. Müzik, moderasyon, eğlence ve 150+ özellik. Ücretsiz kurulum, 24/7 destek.",
+    siteName: "KynuxDev - Discord Bot",
+    title: "KynuxDev - En Güçlü Discord Botu | 15,000+ Sunucuda Güvenilir",
+    description: "Türkiye'nin en popüler Discord botu KynuxDev ile sunucunuzu geliştirin. Müzik, moderasyon, eğlence ve 150+ özellik. Ücretsiz kurulum, 24/7 destek.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "PowerBot - Discord Botu Ana Sayfa",
+        alt: "KynuxDev - Discord Botu Ana Sayfa",
         type: "image/png",
       },
       {
         url: "/og-image-square.png",
         width: 600,
         height: 600,
-        alt: "PowerBot Logo",
+        alt: "KynuxDev Logo",
         type: "image/png",
       },
     ],
@@ -94,11 +94,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@powerbot_tr",
     creator: "@powerbot_tr",
-    title: "PowerBot - En Güçlü Discord Botu",
+    title: "KynuxDev - En Güçlü Discord Botu",
     description: "15,000+ sunucuda güvenilir Discord botu. Müzik, moderasyon, eğlence ve daha fazlası!",
     images: {
       url: "/twitter-image.png",
-      alt: "PowerBot Discord Bot",
+      alt: "KynuxDev Discord Bot",
     },
   },
   icons: {

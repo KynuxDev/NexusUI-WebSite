@@ -25,7 +25,7 @@ const permissions = [
 ]
 
 const initialSteps: SetupStep[] = [
-  { id: 1, title: "Bot'u Davet Et", description: "PowerBot'u sunucunuza davet edin", icon: Plus, status: "current" },
+  { id: 1, title: "Bot'u Davet Et", description: "KynuxDev'u sunucunuza davet edin", icon: Plus, status: "current" },
   { id: 2, title: "İzinleri Ayarla", description: "Gerekli izinleri verin", icon: Shield, status: "pending" },
   { id: 3, title: "Kanal Ayarla", description: "Bot komutları için kanal belirleyin", icon: Settings, status: "pending" },
   { id: 4, title: "İlk Komutu Çalıştır", description: "/setup komutu ile başlayın", icon: Bot, status: "pending" }
@@ -92,10 +92,10 @@ export default function InvitationSetup() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            PowerBot'u <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Kurulum</span>
+            KynuxDev'u <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Kurulum</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Birkaç basit adımda PowerBot'u sunucunuza ekleyin ve tüm özelliklerden yararlanmaya başlayın
+            Birkaç basit adımda KynuxDev'u sunucunuza ekleyin ve tüm özelliklerden yararlanmaya başlayın
           </p>
         </motion.div>
 
@@ -195,7 +195,7 @@ export default function InvitationSetup() {
                 <h4 className="text-lg font-semibold text-green-400">Kurulum Tamamlandı!</h4>
               </div>
               <p className="text-gray-300 text-sm">
-                PowerBot artık sunucunuzda aktif. /help komutu ile tüm özellikleri keşfedebilirsiniz.
+                KynuxDev artık sunucunuzda aktif. /help komutu ile tüm özellikleri keşfedebilirsiniz.
               </p>
             </motion.div>
           </motion.div>
@@ -215,7 +215,7 @@ export default function InvitationSetup() {
               
               <div className="space-y-4">
                 <p className="text-muted-foreground">
-                  PowerBot'u Discord sunucunuza davet etmek için aşağıdaki butona tıklayın:
+                  KynuxDev'u Discord sunucunuza davet etmek için aşağıdaki butona tıklayın:
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-3">
@@ -266,7 +266,7 @@ export default function InvitationSetup() {
               </h3>
               
               <p className="text-muted-foreground mb-6 text-sm">
-                PowerBot'un düzgün çalışması için aşağıdaki izinlere ihtiyacı vardır:
+                KynuxDev'un düzgün çalışması için aşağıdaki izinlere ihtiyacı vardır:
               </p>
               
               <div className="space-y-3 max-h-64 overflow-y-auto custom-scrollbar">

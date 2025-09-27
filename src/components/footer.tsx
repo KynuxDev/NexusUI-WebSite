@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary">
                 <Bot className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold text-foreground">PowerBot</span>
+              <span className="text-xl font-bold text-foreground">KynuxDev</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Discord sunucularınız için en güçlü ve güvenilir bot. 
@@ -126,11 +126,11 @@ export default function Footer() {
             <div className="flex items-center space-x-1 text-sm text-muted-foreground">
               <span>Made with</span>
               <Heart className="h-4 w-4 text-red-500" />
-              <span>by PowerBot Team</span>
+              <span>by KynuxDev Team</span>
             </div>
           </div>
           <div className="mt-4 text-center text-xs text-muted-foreground">
-            © 2024 PowerBot. Tüm hakları saklıdır.
+            © 2024 KynuxDev. Tüm hakları saklıdır.
           </div>
         </div>
       </div>

@@ -18,9 +18,9 @@ interface ModerationLog {
 const mockLogs: ModerationLog[] = [
   { id: "1", type: "automod", user: "SpamBot#1234", moderator: "AutoMod", reason: "Spam mesaj tespit edildi", timestamp: "2 saniye önce", severity: "high" },
   { id: "2", type: "mute", user: "ToxicUser#5678", moderator: "Moderator#0001", reason: "Küfürlü dil kullanımı", timestamp: "1 dakika önce", severity: "medium" },
-  { id: "3", type: "warn", user: "NewUser#9999", moderator: "PowerBot", reason: "Kural ihlali uyarısı", timestamp: "3 dakika önce", severity: "low" },
+  { id: "3", type: "warn", user: "NewUser#9999", moderator: "KynuxDev", reason: "Kural ihlali uyarısı", timestamp: "3 dakika önce", severity: "low" },
   { id: "4", type: "ban", user: "Raider#1337", moderator: "Admin#0001", reason: "Raid girişimi", timestamp: "5 dakika önce", severity: "high" },
-  { id: "5", type: "kick", user: "Advertiser#4444", moderator: "PowerBot", reason: "İzinsiz reklam", timestamp: "8 dakika önce", severity: "medium" }
+  { id: "5", type: "kick", user: "Advertiser#4444", moderator: "KynuxDev", reason: "İzinsiz reklam", timestamp: "8 dakika önce", severity: "medium" }
 ]
 
 const commands = [
@@ -91,7 +91,7 @@ export default function ModerationShowcase() {
       id: Date.now().toString(),
       type: "automod",
       user: `User${Math.floor(Math.random() * 9999)}#1234`,
-      moderator: "PowerBot",
+      moderator: "KynuxDev",
       reason: "Otomatik kural ihlali tespiti",
       timestamp: "Az önce",
       severity: "medium"
@@ -200,7 +200,7 @@ export default function ModerationShowcase() {
               </h3>
               
               <div className="bg-gray-900/50 border border-gray-700 rounded-xl p-4 font-mono">
-                <div className="text-green-400 text-sm mb-2">PowerBot Console v2.1.0</div>
+                <div className="text-green-400 text-sm mb-2">KynuxDev Console v2.1.0</div>
                 <div className="flex items-center space-x-2">
                   <span className="text-blue-400">$</span>
                   <span className="text-white">

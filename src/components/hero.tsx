@@ -66,7 +66,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed"
           >
-            PowerBot ile sunucunuzu daha eğlenceli, güvenli ve kullanışlı hale getirin. 
+            KynuxDev ile sunucunuzu daha eğlenceli, güvenli ve kullanışlı hale getirin. 
             Müzik, moderasyon, eğlence ve utility özelliklerinin mükemmel birleşimi.
           </motion.p>
 

@@ -1,6 +1,6 @@
 {
-  "name": "PowerBot - Discord Bot",
-  "short_name": "PowerBot",
+  "name": "KynuxDev - Discord Bot",
+  "short_name": "KynuxDev",
   "description": "Türkiye'nin en güvenilir Discord botu. Müzik, moderasyon, eğlence ve utility özelliklerinin mükemmel birleşimi.",
   "start_url": "/",
   "display": "standalone",
@@ -59,7 +59,7 @@
     {
       "name": "Bot'u Davet Et",
       "short_name": "Davet",
-      "description": "PowerBot'u Discord sunucunuza ekleyin",
+      "description": "KynuxDev'u Discord sunucunuza ekleyin",
       "url": "/invite",
       "icons": [
         {

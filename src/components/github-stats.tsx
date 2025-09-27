@@ -125,7 +125,7 @@ export default function GitHubStats() {
             <span className="bg-gradient-to-r from-gray-500 to-gray-300 bg-clip-text text-transparent">Open Source</span> Proje
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            PowerBot açık kaynaklı bir projedir. GitHub'da geliştirme sürecini takip edebilir ve katkıda bulunabilirsiniz
+            KynuxDev açık kaynaklı bir projedir. GitHub'da geliştirme sürecini takip edebilir ve katkıda bulunabilirsiniz
           </p>
         </motion.div>
 
@@ -144,7 +144,7 @@ export default function GitHubStats() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-foreground flex items-center space-x-2">
-                    <span>PowerBot</span>
+                    <span>KynuxDev</span>
                     <span className="text-sm bg-primary/20 text-primary px-2 py-1 rounded">
                       {data.version}
                     </span>

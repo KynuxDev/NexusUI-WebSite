@@ -9,10 +9,10 @@ export default function SchemaMarkup({ type = "website" }: SchemaMarkupProps) {
     const baseSchema = {
       "@context": "https://schema.org",
       "@type": ["WebSite", "SoftwareApplication"],
-      "name": "PowerBot",
-      "alternateName": "PowerBot Discord Bot",
+      "name": "KynuxDev",
+      "alternateName": "KynuxDev Discord Bot",
       "url": "https://powerbot.com",
-      "description": "PowerBot ile Discord sunucunuzu profesyonel seviyeye taşıyın. 24/7 müzik çalma, gelişmiş moderasyon araçları, eğlence komutları ve 150+ faydalı özellik.",
+      "description": "KynuxDev ile Discord sunucunuzu profesyonel seviyeye taşıyın. 24/7 müzik çalma, gelişmiş moderasyon araçları, eğlence komutları ve 150+ faydalı özellik.",
       "applicationCategory": "CommunicationApplication",
       "applicationSubCategory": "Discord Bot",
       "operatingSystem": "Discord Platform",
@@ -21,20 +21,20 @@ export default function SchemaMarkup({ type = "website" }: SchemaMarkupProps) {
       "dateModified": new Date().toISOString().split('T')[0],
       "publisher": {
         "@type": "Organization",
-        "name": "PowerBot Team",
+        "name": "KynuxDev Team",
         "url": "https://powerbot.com"
       },
       "author": {
         "@type": "Organization", 
-        "name": "PowerBot Team"
+        "name": "KynuxDev Team"
       },
       "creator": {
         "@type": "Organization",
-        "name": "PowerBot Team"
+        "name": "KynuxDev Team"
       },
       "maintainer": {
         "@type": "Organization",
-        "name": "PowerBot Team"
+        "name": "KynuxDev Team"
       },
       "offers": {
         "@type": "Offer",
@@ -96,8 +96,8 @@ export default function SchemaMarkup({ type = "website" }: SchemaMarkupProps) {
     const organizationSchema = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "PowerBot Team",
-      "alternateName": "PowerBot",
+      "name": "KynuxDev Team",
+      "alternateName": "KynuxDev",
       "url": "https://powerbot.com",
       "logo": {
         "@type": "ImageObject",
@@ -105,7 +105,7 @@ export default function SchemaMarkup({ type = "website" }: SchemaMarkupProps) {
         "width": 512,
         "height": 512
       },
-      "description": "Discord bot geliştirici ekibi. PowerBot ile Discord sunucularınızı geliştirin.",
+      "description": "Discord bot geliştirici ekibi. KynuxDev ile Discord sunucularınızı geliştirin.",
       "foundingDate": "2024-06-15",
       "sameAs": [
         "https://github.com/yourorg/powerbot",
@@ -130,34 +130,34 @@ export default function SchemaMarkup({ type = "website" }: SchemaMarkupProps) {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "PowerBot ücretsiz mi?",
+          "name": "KynuxDev ücretsiz mi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Evet, PowerBot tamamen ücretsizdir. Tüm özellikler herkes için açıktır."
+            "text": "Evet, KynuxDev tamamen ücretsizdir. Tüm özellikler herkes için açıktır."
           }
         },
         {
           "@type": "Question", 
-          "name": "PowerBot'u nasıl sunucuma eklerim?",
+          "name": "KynuxDev'u nasıl sunucuma eklerim?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PowerBot'u sunucunuza eklemek için davet linkine tıklayın ve Discord'da gerekli izinleri verin."
+            "text": "KynuxDev'u sunucunuza eklemek için davet linkine tıklayın ve Discord'da gerekli izinleri verin."
           }
         },
         {
           "@type": "Question",
-          "name": "PowerBot hangi komutlara sahip?",
+          "name": "KynuxDev hangi komutlara sahip?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PowerBot 150'den fazla komuta sahiptir. Müzik, moderasyon, eğlence ve utility kategorilerinde komutlar bulunur."
+            "text": "KynuxDev 150'den fazla komuta sahiptir. Müzik, moderasyon, eğlence ve utility kategorilerinde komutlar bulunur."
           }
         },
         {
           "@type": "Question",
-          "name": "PowerBot 24/7 çalışıyor mu?",
+          "name": "KynuxDev 24/7 çalışıyor mu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Evet, PowerBot %99.9 uptime ile 24/7 kesintisiz hizmet verir."
+            "text": "Evet, KynuxDev %99.9 uptime ile 24/7 kesintisiz hizmet verir."
           }
         }
       ]

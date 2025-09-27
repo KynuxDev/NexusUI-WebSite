@@ -79,7 +79,7 @@ export default function CommandsDocumentation() {
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Komut</span> Dokümantasyonu
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            PowerBot'un tüm komutlarını keşfedin ve nasıl kullanılacağını öğrenin
+            KynuxDev'un tüm komutlarını keşfedin ve nasıl kullanılacağını öğrenin
           </p>
           
           <div className="flex flex-wrap justify-center gap-6">

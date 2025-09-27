@@ -1,6 +1,6 @@
 # 🤖 NexusUI - Discord Bot Website
 
-Modern ve kullanıcı dostu Discord bot web sitesi. PowerBot için tasarlanmış, tam donanımlı bir showcase ve yönetim platformu.
+Modern ve kullanıcı dostu Discord bot web sitesi. KynuxDev için tasarlanmış, tam donanımlı bir showcase ve yönetim platformu.
 
 ## 🚀 Özellikler
 

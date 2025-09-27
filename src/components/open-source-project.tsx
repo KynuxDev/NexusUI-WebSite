@@ -68,7 +68,7 @@ export default function OpenSourceProject() {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            PowerBot açık kaynaklı bir projedir. GitHub'da geliştime sürecini takip edebilir ve 
+            KynuxDev açık kaynaklı bir projedir. GitHub'da geliştime sürecini takip edebilir ve 
             katkıda bulunabilirsiniz
           </p>
         </motion.div>
@@ -87,7 +87,7 @@ export default function OpenSourceProject() {
                   <Github className="h-6 w-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-foreground">PowerBot</h3>
+                  <h3 className="text-2xl font-bold text-foreground">KynuxDev</h3>
                   <p className="text-muted-foreground">Discord çok amaçlı bot projesi</p>
                 </div>
                 <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium">

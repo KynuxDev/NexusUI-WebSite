@@ -159,7 +159,7 @@ export default function Features() {
             Güçlü <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Özellikler</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            PowerBot'un sunduğu kapsamlı özellikler ile Discord sunucunuzu bir üst seviyeye taşıyın
+            KynuxDev'un sunduğu kapsamlı özellikler ile Discord sunucunuzu bir üst seviyeye taşıyın
           </p>
         </motion.div>
 
