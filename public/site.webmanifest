@@ -1,0 +1,106 @@
+{
+  "name": "PowerBot - Discord Bot",
+  "short_name": "PowerBot",
+  "description": "Türkiye'nin en güvenilir Discord botu. Müzik, moderasyon, eğlence ve utility özelliklerinin mükemmel birleşimi.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2c2f33",
+  "theme_color": "#7289da",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "social", "entertainment"],
+  "lang": "tr-TR",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32", 
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Ana sayfa görünümü"
+    },
+    {
+      "src": "/screenshots/mobile-home.png", 
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobil ana sayfa"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bot'u Davet Et",
+      "short_name": "Davet",
+      "description": "PowerBot'u Discord sunucunuza ekleyin",
+      "url": "/invite",
+      "icons": [
+        {
+          "src": "/icons/invite-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Komutlar",
+      "short_name": "Komutlar", 
+      "description": "Tüm bot komutlarını görüntüleyin",
+      "url": "/commands",
+      "icons": [
+        {
+          "src": "/icons/commands-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Destek",
+      "short_name": "Destek",
+      "description": "Yardım ve destek alın",
+      "url": "/support", 
+      "icons": [
+        {
+          "src": "/icons/support-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://powerbot.com",
+      "id": "powerbot-web"
+    }
+  ],
+  "scope": "/",
+  "id": "powerbot-discord-bot"
+}
